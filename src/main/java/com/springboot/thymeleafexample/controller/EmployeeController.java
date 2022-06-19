@@ -46,7 +46,7 @@ public class EmployeeController {
     @GetMapping("/deleteEmployee/{id}")
     public String deleteThroughId(@PathVariable(value = "id") long id) {
         employeeService.deleteViaId(id);
-        //Hello 2
+        //Hello 2 3
         return "redirect:/";
     }
 }
